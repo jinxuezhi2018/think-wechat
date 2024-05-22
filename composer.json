@@ -1,0 +1,22 @@
+{
+    "name": "xuezhitech/think-wechat",
+    "description": "wechat package for thinkphp8",
+    "authors": [
+        {
+            "name": "xuezhitech",
+            "email": "jinxuezhi@xuezhi.info"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+    	"topthink/framework": "^6.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xuezhitech\\wechat\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
