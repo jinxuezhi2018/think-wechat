@@ -14,9 +14,6 @@
     "autoload": {
         "psr-4": {
             "xuezhitech\\wechat\\": "src/"
-        },
-        "files": [
-            "src/helper.php"
-        ]
+        }
     }
 }
