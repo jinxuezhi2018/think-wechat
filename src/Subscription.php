@@ -1,6 +1,9 @@
 <?php
 
-use Util\Curl;
+namespace xuezhitech\wechat;
+
+use xuezhitech\wechat\Util\Curl;
+
 class Subscription
 {
     private $curl = null;
@@ -37,7 +40,7 @@ class Subscription
      * count 返回素材的数量，取值在1到20之间
      * no_content 1 表示不返回 content 字段，0 表示正常返回，默认为 0
      */
-    public function getFreepublish($access_token,$offset=0,$count=20,$no_content=0){
+    public function getFreepublish($access_token,$offset=0,$count=10,$no_content=0){
 
         $url = 'https://api.weixin.qq.com/cgi-bin/freepublish/batchget?access_token='.$access_token;
         $data = [

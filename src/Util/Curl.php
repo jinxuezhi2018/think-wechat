@@ -1,6 +1,6 @@
 <?php
 
-namespace Util;
+namespace xuezhitech\wechat\Util;
 
 class Curl
 {
